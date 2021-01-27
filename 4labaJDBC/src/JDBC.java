@@ -165,7 +165,7 @@ public class JDBC
                 enter.addActionListener(new ActionListener()
                 {
                     @Override
-                    public void actionPerformed(ActionEvent e)                                                     ///////////////////ПРОБЛЕМА С ТИПАМИ
+                    public void actionPerformed(ActionEvent e)
                     {
                         String game_name      = enter1.getText();
                         String release_date   = enter2.getText();
@@ -209,7 +209,7 @@ public class JDBC
                                 i++;
                             }
 
-                            TableModel model1 = new DefaultTableModel(all2, columns) {};                       ///////////////надо ли менять модель?
+                            TableModel model1 = new DefaultTableModel(all2, columns) {};
                             table.setModel(model1);
 
                         }
